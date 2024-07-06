@@ -1,0 +1,21 @@
+1 -
+  log : 3
+  
+2 -
+  log : 0
+  	1
+  	2
+  	3
+  	4
+ 
+3 -
+  log : ["baz"]
+ 
+4 -
+  log : 1
+   	"Hello"
+   	true
+
+5 -
+  log : true
+        [["carName", "Bmw"], ["carPrice", 1000000]]

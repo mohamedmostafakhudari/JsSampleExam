@@ -1,0 +1,37 @@
+1 -
+  The What:
+    An Event Loop is a way to mimic the multi threaded functionality by making use of two additional components Web API (the browser) and a Queue.
+  
+  The Why:
+    The event loop proves its worth when it comes to processes that requires time to be done Ex: setTimeout and setInterval, AJAX, Event Listeners, File I/O operations, Promises.
+  
+  The How:
+    It starts with JS interpreter walking through the code line by line until it encounters a process that will take time to be done and it will move it the browser to handle it and then it will move on to the next line.
+
+    The browser is going to wait for the process to be done and when it is, It will move the result to a mediator component between the Call Stack and the Web API called the Queue.
+    
+    The Queue is responsible for two things, first is to make sure that whatever process has done first should go first to maintain the order of processes, second to wait for the Call Stack to be empty and is ready to receive the queue waiting processes and run them one by one.
+    
+ 
+ 2 -
+   At the beginning:
+   
+     way 1:
+        unshift method.
+        
+     way 2:
+     	splice method.
+     	
+     way 3:
+        spread syntax.
+        
+   At the end:
+   
+     way 1:
+       push method.
+       
+     way 2:
+     	splice method.
+     	
+     way 3:
+        spread syntax.
